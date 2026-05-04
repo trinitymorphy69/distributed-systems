@@ -24,9 +24,3 @@ type Event struct {
 
 }
 
-type EventMinimal struct {
-    Number int
-    Process string
-}
-
-

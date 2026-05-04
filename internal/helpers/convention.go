@@ -58,26 +58,3 @@ func ProcessNamingConvention(event types.Event) error {
 
 	return err
 }
-
-
-func ProcessNamingConventionforMinimalEvent(event types.EventMinimal) error {
-
-	var err error
-
-	if event.Process != "" {
-
-		if event.Process[0] != 'P' {
-		// Checks that P prefixes the process field.
-		return fmt.Errorf("Prefix P to the Process Field for Event %v", event)
-
-		} else if _, err := strconv.Atoi(string(event.Process[1:])); err != nil {
-		// Checks that everything after P in the process field is a natural number.
-		return fmt.Errorf("Only integers should suffix P in the Process Field for Event %v", event)
-
-		} 
-		
-	}
-
-	return err
-
-}

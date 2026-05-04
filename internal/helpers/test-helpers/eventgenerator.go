@@ -27,12 +27,3 @@ func EventGenerator(t *rapid.T) types.Event {
 	}
 
 }
-
-func MinimalEventGenerator(t *rapid.T) types.EventMinimal {
-
-	return types.EventMinimal{
-
-		Process: rapid.SampledFrom([]string{"", "p1", "P1", "45764896", "0", "1999", "P!@#$", "P2", "P5", ""}).Draw(t, "Process"),
-		Number: rapid.IntRange(0, 1000).Draw(t, "Number"),
-	}
-}

@@ -54,34 +54,3 @@ func CheckEvent(events []types.Event) error {
 	return err
 
 }
-
-
-
-
-func CheckEventMinimal(events []types.EventMinimal) error {
-
-	var err error 
-
-	for _, event := range events {
-
-		if event.Process == "" {
-			// Checks whether the Process the event occurs on is specified.
-			return fmt.Errorf("Empty Process for Event %v", event)
-
-		} else if event.Number <= 0 {
-			// Checks whether the event number is specified. This event number
-			// communicates the order of events on a particular process. It must not be
-			// zero or a negative number.
-			return fmt.Errorf("Invalid Number for Event %v on Process %v", event.Number, event.Process)
-
-		}
-
-		if err := ProcessNamingConventionforMinimalEvent(event); err != nil {
-			// Checks that the content of the Process, From, and To field satisfies the naming
-			// convention for a process
-			return err
-		}
-	}
-
-	return err
-}
