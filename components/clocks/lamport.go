@@ -1,7 +1,6 @@
 package clocks
 
 import (
-	"fmt"
 	"github.com/trinitymorphy69/distributed-systems/types"
 	"github.com/trinitymorphy69/distributed-systems/internal/helpers"
 )
@@ -80,12 +79,6 @@ func LamportClock(events []types.Event) ([]types.Event, error) {
 		}
 
 	}
-
-	// These prints out events and their lamport clocks
-	for i := 0; i < len(orderedEvents); i++ {
-		fmt.Printf("%v(%v) ⟶ %v\n", orderedEvents[i].Process, orderedEvents[i].Number, orderedEvents[i].LamportClock)
-	}
-	
 
 	return orderedEvents, nil
 

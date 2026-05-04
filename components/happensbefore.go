@@ -2,7 +2,6 @@ package components
 
 import (
 
-	"fmt"
     "github.com/trinitymorphy69/distributed-systems/types"
 	"github.com/trinitymorphy69/distributed-systems/internal/helpers"
     "github.com/trinitymorphy69/distributed-systems/components/clocks"
@@ -103,10 +102,6 @@ func HappensBefore(events []types.Event) ([][]types.Event, error) {
 
     for _, relationship := range transitiveRelationships {
         hbrelationship = append(hbrelationship, relationship)
-    }
-
-    for _, relationship := range hbrelationship {
-        fmt.Printf("%v(%v) ⟶ %v(%v)\n", relationship[0].Process, relationship[0].Number, relationship[1].Process, relationship[1].Number)
     }
 
     return [][]types.Event{}, err

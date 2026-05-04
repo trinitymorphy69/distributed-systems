@@ -2,7 +2,6 @@ package clocks
 
 import (
 	
-	"fmt"
 	"maps"
 	"slices"
 	"strconv"
@@ -153,10 +152,6 @@ func VectorClock(events []types.Event) ([]types.Event, error) {
 		}
 		 
 
-	}
-
-	for i := 0; i < len(orderedEvents); i++ {
-		fmt.Printf("%v(%v) ⟶ %v\n", orderedEvents[i].Process, orderedEvents[i].Number, orderedEvents[i].VectorClock)
 	}
 	
 	return orderedEvents, nil

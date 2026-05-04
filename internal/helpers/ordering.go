@@ -1,8 +1,9 @@
 package helpers
 
 import (
-	"github.com/trinitymorphy69/distributed-systems/types"
+	
 	"slices"
+    "github.com/trinitymorphy69/distributed-systems/types"
 )
 
 func EventOrdering(events []types.Event) ([]types.Event, error) { 

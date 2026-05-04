@@ -1,8 +1,9 @@
 package helpers
 
 import (
-	"github.com/trinitymorphy69/distributed-systems/types"
+	
 	"fmt"
+	"github.com/trinitymorphy69/distributed-systems/types"
 
 )
 
