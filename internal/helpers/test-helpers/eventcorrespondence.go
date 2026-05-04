@@ -1,7 +1,7 @@
 package testhelpers
 
 import (
-	"github.com/trinitymorphy69/distributed-systems/internal/types"
+	"github.com/trinitymorphy69/distributed-systems/types"
 )
 
 // For an event to match, the boolean expressions in the function below must be satisfied.

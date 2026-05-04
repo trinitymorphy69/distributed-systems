@@ -3,7 +3,7 @@ package helpers
 import (
 	"slices"
 	"reflect"
-    "github.com/trinitymorphy69/distributed-systems/internal/types"
+    "github.com/trinitymorphy69/distributed-systems/types"
 )
 
 func MatchSendReceive(events []types.Event) ([]types.Event, error) {

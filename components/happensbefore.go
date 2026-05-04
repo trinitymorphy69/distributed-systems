@@ -1,11 +1,12 @@
 package components
 
 import (
-	"fmt"
 
-	"github.com/trinitymorphy69/distributed-systems/components/clocks"
+	"fmt"
+    "github.com/trinitymorphy69/distributed-systems/types"
 	"github.com/trinitymorphy69/distributed-systems/internal/helpers"
-	"github.com/trinitymorphy69/distributed-systems/internal/types"
+    "github.com/trinitymorphy69/distributed-systems/components/clocks"
+	
 )
 
 // This function seeks to define the happens-before relationship for all

@@ -3,7 +3,7 @@ package testhelpers
 import (
 
 	"pgregory.net/rapid"
-	"github.com/trinitymorphy69/distributed-systems/internal/types"
+	"github.com/trinitymorphy69/distributed-systems/types"
 
 )
 

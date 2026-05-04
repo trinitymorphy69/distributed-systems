@@ -1,17 +1,14 @@
 package clocks
 
 import (
-	//"cmp"
+	
 	"fmt"
-	//"slices"
-
+	"maps"
 	"slices"
 	"strconv"
-	"maps"
-
-
+	"github.com/trinitymorphy69/distributed-systems/types"
 	"github.com/trinitymorphy69/distributed-systems/internal/helpers"
-	"github.com/trinitymorphy69/distributed-systems/internal/types"
+
 )
 
 func VectorClock(events []types.Event) ([]types.Event, error) {

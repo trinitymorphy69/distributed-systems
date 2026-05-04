@@ -1,7 +1,7 @@
 package helpers
 
 import (
-	"github.com/trinitymorphy69/distributed-systems/internal/types"
+	"github.com/trinitymorphy69/distributed-systems/types"
 	"fmt"
 
 )
