@@ -4,7 +4,7 @@ import (
 	
 	"fmt"
 	"strconv"
-	"github.com/trinitymorphy69/distributed-systems/types"
+	"github.com/trinitymorphy69/distributed-execution-fundamentals/types"
 
 )
 

@@ -3,7 +3,7 @@ package helpers
 import (
 	
 	"slices"
-    "github.com/trinitymorphy69/distributed-systems/types"
+    "github.com/trinitymorphy69/distributed-execution-fundamentals/types"
 )
 
 func EventOrdering(events []types.Event) ([]types.Event, error) { 

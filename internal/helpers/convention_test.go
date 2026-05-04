@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"testing"
 	"pgregory.net/rapid"
-	"github.com/trinitymorphy69/distributed-systems/internal/helpers/test-helpers"
+	"github.com/trinitymorphy69/distributed-execution-fundamentals/internal/helpers/test-helpers"
 )
 
 func TestProcessNamingConvention(t *testing.T) {

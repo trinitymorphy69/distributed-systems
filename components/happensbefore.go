@@ -2,9 +2,9 @@ package components
 
 import (
 
-    "github.com/trinitymorphy69/distributed-systems/types"
-	"github.com/trinitymorphy69/distributed-systems/internal/helpers"
-    "github.com/trinitymorphy69/distributed-systems/components/clocks"
+    "github.com/trinitymorphy69/distributed-execution-fundamentals/types"
+	"github.com/trinitymorphy69/distributed-execution-fundamentals/internal/helpers"
+    "github.com/trinitymorphy69/distributed-execution-fundamentals/components/clocks"
 	
 )
 

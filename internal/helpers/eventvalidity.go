@@ -2,7 +2,7 @@ package helpers
 
 import (
 	"fmt"
-	"github.com/trinitymorphy69/distributed-systems/types"
+	"github.com/trinitymorphy69/distributed-execution-fundamentals/types"
 )
 
 func CheckEvent(events []types.Event) error {

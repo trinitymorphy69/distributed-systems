@@ -1,7 +1,7 @@
 package helpers
 
 import (
-	"github.com/trinitymorphy69/distributed-systems/types"
+	"github.com/trinitymorphy69/distributed-execution-fundamentals/types"
 )
 
 // This function takes two Events of type Send and Receive and checks to see whether 

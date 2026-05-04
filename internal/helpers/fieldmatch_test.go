@@ -3,8 +3,8 @@ package helpers
 import (
 	"testing"
 	"pgregory.net/rapid"
-	"github.com/trinitymorphy69/distributed-systems/types"
-	"github.com/trinitymorphy69/distributed-systems/internal/helpers/test-helpers"
+	"github.com/trinitymorphy69/distributed-execution-fundamentals/types"
+	"github.com/trinitymorphy69/distributed-execution-fundamentals/internal/helpers/test-helpers"
 )
 
 func TestTypeMatchField(t *testing.T)  {

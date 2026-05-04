@@ -3,7 +3,7 @@ package helpers
 import (
 	"testing"
 	"pgregory.net/rapid"
-	"github.com/trinitymorphy69/distributed-systems/internal/helpers/test-helpers"
+	"github.com/trinitymorphy69/distributed-execution-fundamentals/internal/helpers/test-helpers"
 )
 
 func TestEventOrdering(t *testing.T) {

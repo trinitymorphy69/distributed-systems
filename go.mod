@@ -1,4 +1,4 @@
-module github.com/trinitymorphy69/distributed-systems
+module github.com/trinitymorphy69/distributed-execution-fundamentals
 
 go 1.26.2
 

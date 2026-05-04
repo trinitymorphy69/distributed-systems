@@ -3,7 +3,7 @@ package helpers
 import (
 	"fmt"
     "reflect"
-	"github.com/trinitymorphy69/distributed-systems/types"
+	"github.com/trinitymorphy69/distributed-execution-fundamentals/types"
 )
 
 // The third definition of the happen before relationship is that

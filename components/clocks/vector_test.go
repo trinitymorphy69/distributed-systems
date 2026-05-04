@@ -3,8 +3,8 @@ package clocks
 import (
 	"testing"
 	"pgregory.net/rapid"
-	"github.com/trinitymorphy69/distributed-systems/internal/helpers"
-	"github.com/trinitymorphy69/distributed-systems/internal/helpers/test-helpers"
+	"github.com/trinitymorphy69/distributed-execution-fundamentals/internal/helpers"
+	"github.com/trinitymorphy69/distributed-execution-fundamentals/internal/helpers/test-helpers"
 )
 
 func TestVectorClock(t *testing.T) {
